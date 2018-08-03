@@ -12,7 +12,7 @@ namespace LoggingKata.Test
         }
 
         [Theory]
-        [InlineData("Example")]
+        [InlineData(33.715798, -84.215646, Taco Bell Decatur)]
         public void ShouldParse(string str)
         {
             // TODO: Complete Should Parse
